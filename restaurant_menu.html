@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        #header-img{
+            border: 3px solid blue; 
+        }
+        hr{
+            border: 3px solid blue;
+        }
+        .Item-Info{
+            font-style: italic;
+        }
+        nav{
+            background-color: yellowgreen;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 3px solid blue;
+        }
+    </style>
+    <title>
+        KHAO PIYO
+    </title>
+</head>
+<body>
+    <header>
+        <center>
+        <img src="Khaopiyo.jpg" alt="Image not found" id="header-img">
+        <h1>KHAO PIYO</h1>
+    </center>
+    <nav>
+        <a href="#menu">Menu  </a><a href="#order-form">Order-Form</a></h2>
+    </nav>
+    </header>
+<main>
+    <section id="menu">
+        <h2>Menu</h2>
+        <hr>
+        <article>
+            <img src="Paneer_Masala.jpg" alt="Image not available!!!">
+            <h3>
+                Paneer Masala    
+            </h3>
+            <p class="Item-Info">
+                This dish originated in the 1950s at Moti Mahal restaurant in Delhi. Kundan Lal Jaggi invented the dish by mixing fresh butter into a tomato-based curry.
+                <br>Price in INR for full: 320/-
+            </p>
+        </article>
+        <article>
+            <img src="Paneer_Lababdar.jpg" alt="Image not available!!!">
+            <h3>
+                Paneer Lababdar
+            </h3>
+            <p class="Item-Info">
+                Paneer Lababdar is an easy-to-prepare, restaurant-style dish of paneer (Indian cottage cheese) in a creamy, mildly tangy and faintly sweet gravy. Onions, tomatoes, cashews and spices make this a rich, flavorful and delicious recipe.
+                <br>Price in INR for full: 330/-
+            </p>
+        </article>
+        <article>
+            <img src="Paneer_Tikka.jpg" alt="Image not available!!!">
+            <h3>
+                Paneer Tikka
+            </h3>
+            <p class="Item-Info">
+                Paneer tikka or Paneer Soola or Chhena Soola is an Indian dish made from chunks of paneer/ chhena marinated in spices and grilled in a tandoor. It is a vegetarian alternative to chicken tikka and other meat dishes. It is a popular dish that is widely available in India and countries with an Indian diaspora.
+                <br>Price in INR for full: 350/-
+            </p>
+        </article>
+    </section>
+    <section id="order-form">
+        <h2>Place Your Order</h2>
+        <hr>
+        <form>
+            <label for="name">Paneer Masala:   </label><input type="number" min="0"><br>
+            <label for="name">Paneer Lababdar: </label><input type="number" min="0"><br>
+            <label for="name">Paneer Tikka:    </label><input type="number" min="0"><br>
+            <h4>Quantity:</h4>
+            <input type="radio" name="quantity"><label>Quater</label><br>
+            <input type="radio" name="quantity"><label>Half</label><br>
+            <input type="radio" name="quantity"><label>Full</label><br>
+            <h4>Add-ons:</h4>
+            <input type="checkbox"> Pickles<br>
+            <input type="checkbox"> Onions<br>
+            <input type="checkbox"> chillies<br>
+            <input type="checkbox"> Papad<br>
+            <input type="checkbox"> Rasgulla<br><br>
+            <label>Special Request:</label><br>
+            <textarea rows="5" cols="100" placeholder="Write your Request here!!!!!!!"></textarea><br><br>
+            <input type="submit" value="Go To Checkout">
+        </form>
+        <footer>
+            <marquee><p> Made with love by mayanksingh3781901!!!!!!!</p></marquee>
+        </footer>
+    </section>
+</main>
+</body>
+</html>
